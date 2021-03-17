@@ -1,0 +1,164 @@
+input[type=text],
+input[type=date],
+input[type=number],
+select {
+    width: 200px;
+    background-color: #efefef;
+    color: #666;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    margin-top: 10px;
+}
+
+input[type=text]:focus,
+input[type=date]:focus,
+input[type=number]:focus {
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(204, 204, 204, 0.9);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(204, 204, 204, 0.9);
+    box-shadow: 0px 0px 10px 2px rgba(204, 204, 204, 0.9);
+    border: 2px solid #a5cda5;
+    background-color: #e9f3e9;
+    color: #128870;
+}
+
+input[type=submit] {
+    width: 200px;
+    background-color: #128870;
+    font-size: 20px;
+    color: white;
+    padding: 5px 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    outline: none;
+}
+
+input[type=submit]:focus {
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(204, 204, 204, 0.9);
+    -moz-box-shadow: 0px 0px 15px 5px rgba(204, 204, 204, 0.9);
+    box-shadow: 0px 0px 15px 5px rgba(204, 204, 204, 0.9);
+}
+
+input[type=submit]:hover {
+    background-color: #f36742;
+}
+
+.input_label,
+.info_label {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.input_sublabel {
+    margin-top: 20px;
+}
+
+.checkbox_temp {
+    margin-left: 25px;
+}
+
+#input_long {
+    width: 400px;
+}
+
+.checkbox_label {
+    float: left;
+    display: block;
+    width: 140px;
+    text-align: center;
+    border: 1px solid #128870;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+input[type=checkbox]:checked + .checkbox_label {
+    border-color: #f36742;
+}
+
+
+.table_standard {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table_standard td, .table_standard th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table_standard tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table_standard tr:nth-child(odd) {
+    background-color: #d6f5f1;
+}
+
+.table_standard tr:nth-child(even):hover {
+    background-color: #d0d0d0;
+}
+
+.table_standard tr:nth-child(odd):hover {
+    background-color: #adebe3;
+}
+
+.table_standard th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #128870;
+    color: white;
+}
+
+.table_standard input[type=text],
+.table_standard input[type=date],
+.table_standard input[type=number] {
+    width: 80px;
+}
+
+#table_perm {
+    width: 300px;
+    margin-top: 40px;
+}
+
+#table_perm th {
+    text-align: center;
+}
+
+#table_perm_st {
+    text-align: right;
+}
+
+#table_perm_nd {
+    text-align: left;
+}
+
+#table_perm i {
+    font-weight: normal;
+    font-style: italic;
+}
+
+#dottedLine_separator {
+    opacity: 0.4;
+    height: 5px;
+    margin-top: 55px;
+    margin-bottom: 60px;
+    border-bottom: 2px dotted #444444;
+}
+
+#permissions_user {
+    color: #128870;
+    display: inline;
+    font-weight: bold;
+}
+
+#permissions_perm {
+    margin-bottom: 30px;
+}

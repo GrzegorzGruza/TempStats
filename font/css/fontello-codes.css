@@ -1,0 +1,31 @@
+
+.icon-attention:before {
+    content: '\e800';
+}
+
+/* '' */
+.icon-trophy:before {
+    content: '\e801';
+}
+
+/* '' */
+.icon-stopwatch:before {
+    content: '\e802';
+}
+
+/* '' */
+.icon-user:before {
+    content: '\e803';
+}
+
+/* '' */
+.icon-reply:before {
+    content: '\e805';
+}
+
+/* '' */
+.icon-hand-pointer-o:before {
+    content: '\f25a';
+}
+
+/* '' */

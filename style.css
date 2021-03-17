@@ -1,0 +1,265 @@
+body {
+    background-color: #404040;
+    font-family: 'Lato', sans-serif;
+    margin: 0 !important;
+    height: 100%;
+}
+
+#wrapper {
+    width: 100%;
+    min-height: 100%;
+}
+
+#container {
+    width: 100%;
+    overflow: hidden;
+    margin-left: 0;
+    margin-right: 0;
+    min-height: 100%;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.scrollup {
+    height: 64px;
+    width: 64px;
+    border-radius: 32px;
+    text-decoration: none;
+    background: url("img/top.png") no-repeat 0px 0px;
+    opacity: 0.5;
+    position: fixed;
+    right: 32px;
+    bottom: 32px;
+    display: none;
+
+}
+
+.scrollup:hover {
+    opacity: 1;
+}
+
+#logo {
+    color: white;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 44px;
+    letter-spacing: 5px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.nav {
+    text-align: center;
+    width: 100%;
+    background-color: #303030;
+    color: white;
+    height: 40px;
+    padding: 5px 0px 5px 0px;
+
+}
+
+.navsticky {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+
+.space_none {
+    width: 100%;
+    height: 0px;
+}
+
+.space {
+    height: 45px;
+}
+
+.topbar {
+    background-color: #128870;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+#topbarL {
+    width: 158px;
+    padding: 15px;
+    text-align: center;
+    border-right: 2px dotted #cccccc;
+    position: absolute;
+}
+
+#topbarR {
+    margin-left: 190px;
+    padding: 20px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+#topbar_big {
+    height: 170px;
+}
+
+#topbar_small {
+    height: 80px;
+}
+
+#sidebar {
+    float: left;
+    width: 158px;
+    height: 100%;
+    min-height: 840px;
+    padding: 20px;
+    background-color: lightgray;
+    text-align: center;
+    font-size: 18px;
+    border-right: 2px dotted #666666;
+    position: absolute;
+}
+
+#content {
+    margin-left: 200px;
+    padding: 40px;
+    background-color: #DEDEDE;
+    min-height: 800px;
+    text-align: justify;
+}
+
+#footer {
+    clear: both;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
+.optionL {
+    font-size: 18px;
+    height: 25px;
+    width: 160px;
+    padding: 10px 5px 10px 5px;
+    border-bottom: 2px dotted #444444;
+}
+
+a {
+    text-decoration: none;
+}
+
+.optionL:hover {
+    text-decoration: none;
+    background-color: #f36742;
+    cursor: pointer;
+}
+
+a .optionL:hover {
+    color: white;
+}
+
+a .optionL {
+    color: #000000;
+    text-decoration: none;
+}
+
+.bigtitle {
+    font-size: 32px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.dottedline {
+    height: 5px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-bottom: 2px dotted #444444;
+}
+
+ol {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-size: 18px;
+    height: 35px;
+    line-height: 200%;
+    display: inline-block;
+}
+
+ol a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+}
+
+ol > li {
+    float: left;
+    width: 150px;
+    height: 40px;
+    border-right: 2px dotted #444444;
+}
+
+ol > li:first-child {
+    border-left: 2px dotted #444444;
+}
+
+ol > li:hover {
+    background-color: #151515;
+    cursor: pointer;
+}
+
+ol > li:hover > ul > li a {
+    color: white;
+}
+
+ol > li > ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+ol > li:hover > ul {
+    display: block;
+}
+
+ol > li > ul > li {
+    position: relative;
+    background-color: #151515;
+    z-index: 100;
+    border-top: 2px dotted #303030;
+    height: 45px;
+}
+
+ol > li > ul > li:hover {
+    background-color: #353535;
+}
+
+ol > li > ul > li:hover a {
+    color: #F36742;
+}
+
+#login {
+    color: white;
+    background-color: #111111;
+    width: 100%;
+    z-index: 2;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    text-align: right;
+    padding: 1px 1px 1px 1px;
+}
+
+#login_content {
+    margin-right: 10px;
+}
+
+#login a {
+    color: white;
+    text-decoration: none;
+}
